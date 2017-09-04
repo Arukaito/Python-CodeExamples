@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cb54d9a8-829e-475b-8473-e957244d5af0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Py.py</StartupFile>
+    <StartupFile>Basic Operators.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Py.py" />
+    <Compile Include="Basic Operators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
