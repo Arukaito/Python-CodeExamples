@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cb54d9a8-829e-475b-8473-e957244d5af0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Basic Operators.py</StartupFile>
+    <StartupFile>String Formatting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,13 @@
     <Compile Include="Basic Operators.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Basic String Operations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="String Formatting.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

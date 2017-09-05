@@ -18,6 +18,6 @@ strings.append("Hello")
 strings.append("World")
 
 #Utilizamos la lista junto con su indice para imprimir lo que queremos
-print (numbers[1])
+print(numbers[1])
 print(strings[0])
 print("The Second Name On The Names List Is %s" % second_name)
