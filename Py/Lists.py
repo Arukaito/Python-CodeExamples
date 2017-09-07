@@ -6,7 +6,7 @@ strings = []
 names = ["John","Eric","Jessica"]
 
 #Podemos mandar a llamar la variable con el Indice apartir de 0 utilizando [] para acceder a los objetos de una lista
-second_name = names[1]
+second_name = names[1]                                                                        
 
 #Agregamos los numeros a la lista de numeros con la funcion Append que agrega objetos a la lista
 numbers.append(1)

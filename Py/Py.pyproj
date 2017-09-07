@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cb54d9a8-829e-475b-8473-e957244d5af0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>String Formatting.py</StartupFile>
+    <StartupFile>Basic String Operations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
