@@ -12,7 +12,7 @@ listanumerica = [1,4,3,84,26,-5,18,25,37]
 
 #utilizamos nlargest() y nsmallest() de heapq para demostrar sus funciones
 
-
+print("Imprimimos heapq con los valores iniciales. para ver su resultado con los pr")
 print(heapq.nlargest(1 ,listanumerica)) #Donde 1 es la cantidad de caracteres que queremos regresar
 print(heapq.nsmallest(3,listanumerica))
 
@@ -28,4 +28,13 @@ portfolio = [
 ]
 
 
+print("Utilizamos el Heapq con el parametro de tipo lamba para la columna price ")
 
+baratos = heapq.nsmallest(1,portfolio,key=lambda s: s['price'])
+
+print(baratos)
+
+caros = heapq.nlargest(1,portfolio,key=lambda s: s['price'])
+
+
+print(caros)
