@@ -36,5 +36,22 @@ print(baratos)
 
 caros = heapq.nlargest(1,portfolio,key=lambda s: s['price'])
 
-
 print(caros)
+
+#Si tenemos una lista de numeros podemos sacar numeros utilizando POPS
+
+nums = [1,8,2,23,7,-4,18,23,42,37,2]
+#(asignamos la lista en la variable heap)
+heap = list(nums)
+
+#Convertimos la lista nums en un Heap ( memoria dinamica )
+heapq.heapify(heap)
+
+
+#Si necesitamos una busqueda rapido de el numero mas pequeñi o mas grande mas rapido podemos usar un heappop
+print(heapq.heappop(heap))
+heapq.heappop(heap)
+heapq.heappop(heap)
+
+
+
