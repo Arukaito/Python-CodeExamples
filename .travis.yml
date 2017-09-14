@@ -22,7 +22,7 @@ install:
   - source activate env_name
   - conda info --envs
   - python --version
-  - pip install -r ci/pip_requirements.txt
+  - pip install -r requirements.txt
   - pip install . --no-deps
 script:
   - pytest # or py.test for Python versions 3.5 and below
