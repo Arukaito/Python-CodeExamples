@@ -17,7 +17,7 @@ before_install:
   - conda update --yes conda
 install:
   - conda create --yes -n env_name python=$PYTHON_VERSION
-  - conda install --yes -n env_name --file ci/conda_requirements.txt
+  - conda install --yes -n env_name --file requirements.txt
   - if [ ${USE_CYTHON} ]; then conda install --yes -n env_name cython; fi
   - source activate env_name
   - conda info --envs
