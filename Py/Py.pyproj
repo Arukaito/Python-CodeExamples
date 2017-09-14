@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cb54d9a8-829e-475b-8473-e957244d5af0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Heapq Operations.py</StartupFile>
+    <StartupFile>Priority Queue Operations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,12 +36,18 @@
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Priority Queue Operations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="String Formatting.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Unbound Deque Operations.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
