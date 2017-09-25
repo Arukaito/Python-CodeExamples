@@ -28,6 +28,9 @@ install:
   - conda update -q conda
   - pip install pytest
 script:
-  - pytest # or py.test for Python versions 3.5 and below
+  - pytest -v --color=yes --exitfirst --showlocals --durations=5
  # - List.Py
+after_success:
+  - python Basic Operators.py some args
+
  
