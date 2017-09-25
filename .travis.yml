@@ -29,8 +29,8 @@ install:
   - pip install pytest
 script:
   - pytest -v --color=yes --exitfirst --showlocals --durations=5
- # - List.Py
-after_success:
   - python Basic Operators.py some args
+
+  
 
  
