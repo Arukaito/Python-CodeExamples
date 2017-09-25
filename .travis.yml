@@ -26,6 +26,6 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
 script:
-  - pytest # or py.test for Python versions 3.5 and below
+  #- pytest # or py.test for Python versions 3.5 and below
   - List.Py
  
