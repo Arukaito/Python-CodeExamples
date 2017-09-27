@@ -52,6 +52,3 @@ heapq.heapify(heap)
 print(heapq.heappop(heap))
 heapq.heappop(heap)
 heapq.heappop(heap)
-
-
-
