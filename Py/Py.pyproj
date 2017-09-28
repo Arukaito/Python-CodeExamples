@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cb54d9a8-829e-475b-8473-e957244d5af0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Printing Operations.py</StartupFile>
+    <StartupFile>PrintingOperations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,28 +24,28 @@
     <Compile Include="BasicOperators.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Basic String Operations.py">
+    <Compile Include="BasicStringOperations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Bound Deque Operations.py">
+    <Compile Include="BoundDequeOperations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Printing Operations.py">
+    <Compile Include="PrintingOperations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Heapq Operations.py">
+    <Compile Include="HeapqOperations.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Priority Queue Operations.py">
+    <Compile Include="PriorityQueueOperations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="String Formatting.py">
+    <Compile Include="StringFormatting.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Unbound Deque Operations.py">
+    <Compile Include="UnboundDequeOperations.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
