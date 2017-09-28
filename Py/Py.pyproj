@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BasicOperators.py">
+    <Compile Include="Basic Operators.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Basic String Operations.py">
