@@ -28,7 +28,7 @@ install:
   - conda update -q conda
   - pip install pytest
 script:
-  - python Py/Basic Operators.py
+  - python Py/Basic%Operators.py
   
 
   
