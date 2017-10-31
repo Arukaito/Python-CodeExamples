@@ -3,7 +3,7 @@
 #Escape --- Que hace?.
 #\\ Backslash (\)
 #\' Single- quote (')
-#\" Double- quote (")
+#\" Double- quote                (")
 #\a ASCII bell (BEL)
 #\b ASCII backspace (BS)
 #\f ASCII formfeed (FF)
@@ -13,7 +13,7 @@
 #\t ASCII horizontal tab (TAB)
 #\uxxxx Character with 16- bit hex value xxxx (Unicode only)
 #\Uxxxxxxxx Character with 32- bit hex value xxxxxxxx (Unicode only)
-#\v ASCII vertical tab (VT)
+#\v ASCII vertical tab (VTm
 #\ooo Character with octal value oo
 #\xhh Character with hex value hh
 
@@ -51,4 +51,4 @@ print (gato_rosa)
 #Ejercicios 
 #1 Usar ''' triple Single Quote y para que lo usariamos
 #2 Combina secuencias de escape y y formatos para hacer un string mas complejo
-#3 Utilizar 
+#3 Utilizar %r (raw)
