@@ -3,7 +3,7 @@
 #Escape --- Que hace?.
 #\\ Backslash (\)
 #\' Single- quote (')
-#\" Double- quote                (")
+#\" Double- quote  (")
 #\a ASCII bell (BEL)
 #\b ASCII backspace (BS)
 #\f ASCII formfeed (FF)
